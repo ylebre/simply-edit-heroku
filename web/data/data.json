@@ -1,0 +1,23 @@
+{
+	"/": {
+		"meta title": "Simply edit Heroku",
+		"meta description": {
+			"content": "Example site for Simply edit on Heroku"
+		},
+		"photo": {
+			"src": "/images/photo1.jpg",
+			"class": "photo",
+			"alt": "Sample picture from Unsplash.com"
+		},
+		"slogan": "Finally a really simple website editor that works.",
+		"name": "Try it out!<br>",
+		"occupation": "<a href='https://simplyedit.io'>https://simplyedit.io</a>",
+		"footer": "<p>The first inline WYSIWYG editor you can simply use anywhere, any time. It works with any CMS, such as Wordpress, Drupal. It works with Magento. It even works without a CMS or database. Simply Edit Anything.<br></p>",
+		"logo": {
+			"src": "https://simplyedit.io/graphics/logo.svg",
+			"class": "logo",
+			"alt": "Simply edit"
+		},
+		"contact": "<p>Username: simply<br>Password: edit</p><p><a href=\"#simply-edit\">Edit this page!</a></p>More information:&nbsp;<a href=\"https://simplyedit.io/\" title=\"Simply edit\">simplyedit.io</a>"
+	}
+}

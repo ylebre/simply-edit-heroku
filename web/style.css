@@ -1,0 +1,102 @@
+html,body {
+	padding: 0;
+	margin: 0;
+}
+html {
+	height: 100%;
+}
+body {
+	position: relative;
+	padding-bottom: 150px;
+	min-height: 100%;
+	box-sizing: border-box;
+}
+.logo {
+	max-width: 600px;
+}
+footer:before {
+	content: '';
+	display: block;
+	margin-bottom: 5px;
+	background-color: white;
+	height: 3px;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+}
+footer p {
+	width: 500px;
+	text-align: center;
+	margin: 0px auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	line-height: 24px;
+	font-family: Verdana;
+	font-size: 14px;
+}
+div.slogan {
+	color: #ff9a22;
+	text-align: right;
+	font-style: italic;
+	line-height: 26px;
+	width: 400px;
+	font-family: Arial;
+}
+div.slogan:before {
+	content: "\"";
+}
+div.slogan:after {
+	content: "\"";
+}
+h1.name {
+	text-align: right;
+	font-family: Arial;
+}
+div.contact {
+	text-align: right;
+	font-family: Arial;
+}
+div.contact strong {
+	color: #ff9a22;
+}
+header {
+	margin-top: 30px;
+	text-align: center;
+}
+#content {
+	width: 700px;
+	margin: 0px auto;
+	margin-top: 50px;
+	margin-bottom: 5px;
+}
+div.left {
+	width: 300px;
+	display: inline-block;
+	vertical-align: top;
+}
+div.right {
+	width: 400px;
+	display: inline-block;
+	vertical-align: top;
+}
+@media (max-width: 600px) {
+	#content {
+		width: 400px;
+	}	
+	img {
+		max-width: 90%;
+	}
+	footer p {
+		max-width: 100%;
+	}
+	body {
+		position: relative;
+		padding-bottom: 200px;
+	}
+}

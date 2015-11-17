@@ -1,0 +1,6 @@
+{
+  "name": "Simply edit Heroku",
+  "description": "A barebones PHP app with Simply Edit",
+  "repository": "https://github.com/ylebre/simply-edit-heroku",
+  "addons": []
+}

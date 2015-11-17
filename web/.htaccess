@@ -1,0 +1,13 @@
+Header set Access-Control-Allow-Origin "*"
+<Limit PUT DELETE>
+	AuthUserFile /app/.htpasswd
+	AuthType Basic
+	AuthName "Simply store"
+	Require valid-user
+	
+	RewriteEngine on
+	RewriteBase /
+	RewriteCond %{REQUEST_METHOD} PUT
+	RewriteRule ^(.*)$ put.php [L]
+</Limit>
+Options +Indexes
