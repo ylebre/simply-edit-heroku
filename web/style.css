@@ -6,7 +6,6 @@ html {
 	height: 100%;
 }
 body {
-	position: relative;
 	padding-bottom: 150px;
 	min-height: 100%;
 	box-sizing: border-box;
