@@ -1,6 +1,9 @@
 # simply-edit-heroku
 
-A ver simply PHP demo storage layer demo that uses Simply Edit.
+A very simple PHP demo storage layer demo that uses Simply Edit and Heroku.
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 
 ## Deploying
 
